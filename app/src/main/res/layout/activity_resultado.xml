@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Resultado">
+
+    <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/alumno"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notas"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+    />
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+        <LinearLayout
+
+                    android:layout_width="195dp"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="10dp"
+        >
+            <TextView
+                    android:text="@string/nota_1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nota1"
+            />
+            <TextView
+                    android:text="@string/nota_2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content" android:id="@+id/nota2"
+            />
+            <TextView
+                    android:text="@string/nota_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:id="@+id/nota3"
+            />
+            <TextView
+                    android:text="@string/nota_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nota4"
+                    android:layout_marginEnd="5dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+        >
+
+            <TextView
+
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/notas1"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+            />
+            <TextView
+
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/notas2"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="10dp"
+            />
+            <TextView
+
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/notas3"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="10dp"
+            />
+            <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/notas4"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            android:layout_marginTop="24dp"/>
+
+
+    <TextView
+            android:id="@+id/resultado"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    <TextView
+            android:id="@+id/Aprovacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+    />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mensaje"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+    />
+
+
+</LinearLayout>

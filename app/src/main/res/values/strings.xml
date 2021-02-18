@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CalcularPromedio</string>
+
+    <string name="nombre">Ingresa tu nombre</string>
+    <string name="nota1">Ingresa Nota 1</string>
+    <string name="nota2">Ingresa Nota 2</string>
+    <string name="nota3">Ingresa Nota 3</string>
+    <string name="nota4">Ingresa Nota 4</string>
+    <string name="nota_1"> Nota 1</string>
+    <string name="nota_2"> Nota 2</string>
+    <string name="nota_3"> Nota 3</string>
+    <string name="nota_4"> Nota 4</string>
+
+    <string name="calcula">Calcula tu promedio</string>
+    <string name="Calcular">Calcular Promedio</string>
+
+    <string name="texto">Tu Promedio es:</string>
+    <string name="notas">Tus notas son:</string>
+
+</resources>
